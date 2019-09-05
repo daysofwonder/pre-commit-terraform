@@ -2,6 +2,8 @@
 
 set -e
 
+source $(dirname $0)/init.sh
+
 main() {
   declare argv
   argv=$(getopt -o a: --long args: -- "$@") || return

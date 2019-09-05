@@ -1,6 +1,8 @@
 #!/usr/bin/env bash
 set -e
 
+source $(dirname $0)/init.sh
+
 declare -a paths
 index=0
 error=0
